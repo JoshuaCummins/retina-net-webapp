@@ -1,0 +1,13 @@
+keras-retinanet==1.0.0
+cython
+keras-resnet==0.2.0
+git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI
+h5py
+keras
+matplotlib
+numpy>=1.14
+opencv-python-headless>=3.3.0
+opencv-contrib-python-headless>=3.3.0
+pillow
+progressbar2
+tensorflow>=2.3.0

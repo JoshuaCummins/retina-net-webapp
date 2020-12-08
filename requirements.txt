@@ -1,9 +1,9 @@
-numpy>=1.14
+numpy>=1.19.0
 tensorflow-cpu>=2.3.0
 keras-retinanet==1.0.0
 cython
 keras-resnet==0.2.0
-h5py
+h5py==2.9.0
 keras
 matplotlib
 opencv-python-headless>=3.3.0

@@ -1,8 +1,8 @@
 import numpy as np
-import os
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from PIL import Image
+from keras_retinanet import models
 from keras_retinanet.utils.image import preprocess_image, resize_image
 from keras_retinanet.utils.visualization import draw_box, draw_caption
 from keras_retinanet.utils.colors import label_color
@@ -10,7 +10,7 @@ import streamlit as st
 
 
 
-model = tf.keras.models.load_model(os.path.join('resnet.h5'))
+model = models.load_model('resnet.h5')
 class_names = [l.rstrip() for l in open('coco_categories.txt')]
 
 def predictions(img, threshold=0.6):

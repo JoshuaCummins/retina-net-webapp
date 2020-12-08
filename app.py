@@ -1,4 +1,5 @@
 import numpy as np
+import os
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from PIL import Image
@@ -9,7 +10,7 @@ import streamlit as st
 
 
 
-model = tf.keras.models.load_model('resnet.h5')
+model = tf.keras.models.load_model(os.path.join('resnet.h5'))
 class_names = [l.rstrip() for l in open('coco_categories.txt')]
 
 def predictions(img, threshold=0.6):

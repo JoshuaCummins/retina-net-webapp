@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
-from keras_retinanet import models
+from keras import models
 from keras_retinanet.utils.image import preprocess_image, resize_image
 from keras_retinanet.utils.visualization import draw_box, draw_caption
 from keras_retinanet.utils.colors import label_color

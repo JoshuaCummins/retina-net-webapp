@@ -1,4 +1,4 @@
-numpy>=1.16.0
+numpy==1.16.0
 tensorflow-cpu>=2.3.0
 keras-retinanet==1.0.0
 cython

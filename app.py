@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import tensorflow as tf
+import tensorflow
+import keras
 from PIL import Image
 from keras_retinanet import models
 from keras_retinanet.utils.image import preprocess_image, resize_image

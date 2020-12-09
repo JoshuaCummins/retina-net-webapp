@@ -146,8 +146,6 @@ ipython-genutils==0.2.0
 ipython-sql==0.3.9
 ipywidgets==7.5.1
 itsdangerous==1.1.0
-jax==0.2.6
-jaxlib==0.1.57+cuda101
 jdcal==1.4.1
 jedi==0.17.2
 jieba==0.42.1
